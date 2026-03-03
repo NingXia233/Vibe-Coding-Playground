@@ -86,7 +86,7 @@ ax1.set_ylabel('Observation X')
 ax1.set_title('Phase 1: Observed Time Series with True Hidden States')
 ax1.set_xlim(-1, T)
 plt.tight_layout()
-plt.savefig('Week2/phase1_observations.png', dpi=150)
+plt.savefig('phase1_observations.png', dpi=150)
 plt.show()
 
 # ============================================================================
@@ -336,8 +336,8 @@ anim = animation.FuncAnimation(
 
 # --- 4.4 Save as GIF ---
 try:
-    anim.save('Week2/belief_animation.gif', writer='pillow', fps=2, dpi=100)
-    print("Animation saved to Week2/belief_animation.gif")
+    anim.save('belief_animation.gif', writer='pillow', fps=2, dpi=100)
+    print("Animation saved to belief_animation.gif")
 except Exception as e:
     print(f"Could not save GIF: {e}. Displaying instead.")
 
