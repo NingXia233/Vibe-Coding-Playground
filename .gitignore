@@ -1,3 +1,8 @@
+# Agent documents
+AGENTS.md
+LOG.md
+PAPER.md
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
